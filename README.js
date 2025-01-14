@@ -1,7 +1,7 @@
 var e = 1120222121; // This is the project id of the starting project
 var h = 7131; // This will be the next project's remix number.
 var csrf = document.cookie.split('; ').find(row => row.startsWith('scratchcsrftoken=')).split('=')[1]; // your scratch X-CSRFToken
-var xtoken = "83c36f55138348fc91627879b3a44d0f:-NB2RTu4M3j1xUZy0OBFN4SpoPk"; // your scratch x-token
+var xtoken = "insert xtoken here"; // your scratch x-token
 var cookies = ``; // scratch browser cookies
 
 // Retry function without delay
