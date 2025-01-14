@@ -1,7 +1,7 @@
-var e = 1119652378; // This is the project id of the starting project
-var h = 6451; // This will be the next project's remix number.
+var e = 1120165116; // This is the project id of the starting project
+var h = 6901; // This will be the next project's remix number.
 var csrf = document.cookie.split('; ').find(row => row.startsWith('scratchcsrftoken=')).split('=')[1]; // your scratch X-CSRFToken
-var xtoken = "200f974ed50e4719a4d881f00be2dcdf:NKNGv5h20UPztjjsCMLm6y6_MaI"; // your scratch x-token
+var xtoken = "insert xtoken here"; // your scratch x-token
 var cookies = ``; // scratch browser cookies
 
 // Retry function without delay
@@ -88,7 +88,7 @@ async function jsbomb() {
             body: JSON.stringify({
                 title: projectTitle, // Use the new title
                 instructions: "UNTITLED-1088 WILL WIN!",
-                description: "UNTITLED-1088 WILL WIN!"
+                description: "UNTITLED-1088 WILL BEAT ROTG!"
             })
         });
 
